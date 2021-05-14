@@ -14,11 +14,11 @@ const app = document.getElementById('app');
 ReactDOM.render(
   <BrowserRouter>
     <React.StrictMode>
-      <Route exact path="/"                           component={ TopPage }></Route>
-      <Route exact path="/users"                      component={ UserIndexPage }></Route>
-      <Route exact path="/users/:userId"              component={ UserShowPage }></Route>
-      <Route exact path="/context_samples/01"  component={ ContextSample01Page }></Route>
-      <Route exact path="/context_samples/02"  component={ ContextSample02Page }></Route>
+      <Route exact path="/ichimon_itto/"                           component={ TopPage }></Route>
+      <Route exact path="/ichimon_itto/users"                      component={ UserIndexPage }></Route>
+      <Route exact path="/ichimon_itto/users/:userId"              component={ UserShowPage }></Route>
+      <Route exact path="/ichimon_itto/context_samples/01"  component={ ContextSample01Page }></Route>
+      <Route exact path="/ichimon_itto/context_samples/02"  component={ ContextSample02Page }></Route>
     </React.StrictMode>
   </BrowserRouter>,
   app
