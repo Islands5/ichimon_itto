@@ -14,7 +14,7 @@ $ npm run watch
 
 ```
 ホスト側のターミナルで
-$ docker cp react-training_app_1:/app/node_modules .
-※react-training_app_1はコンテナのIDなので、上記で動作しない場合はIDを確認
+$ docker cp ichimon_itto_app_1:/app/node_modules .
+※ichimon_itto_app_1はコンテナのIDなので、上記で動作しない場合はIDを確認
 ```
 

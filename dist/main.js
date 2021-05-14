@@ -325,28 +325,6 @@ eval("__webpack_require__.r(__webpack_exports__);\nvar isProduction = \"developm
 
 /***/ }),
 
-/***/ "./src/contexts/sample01_context.ts":
-/*!******************************************!*\
-  !*** ./src/contexts/sample01_context.ts ***!
-  \******************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Sample01Context\": function() { return /* binding */ Sample01Context; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Sample01Context = (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(\"\");\n\n\n//# sourceURL=webpack://react_training/./src/contexts/sample01_context.ts?");
-
-/***/ }),
-
-/***/ "./src/contexts/sample02_context.ts":
-/*!******************************************!*\
-  !*** ./src/contexts/sample02_context.ts ***!
-  \******************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Sample02Context\": function() { return /* binding */ Sample02Context; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Sample02Context = (0,react__WEBPACK_IMPORTED_MODULE_0__.createContext)(null);\n\n\n//# sourceURL=webpack://react_training/./src/contexts/sample02_context.ts?");
-
-/***/ }),
-
 /***/ "./src/main.tsx":
 /*!**********************!*\
   !*** ./src/main.tsx ***!
@@ -354,73 +332,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _pages_top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/top */ \"./src/pages/top.tsx\");\n/* harmony import */ var _pages_users__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./pages/users */ \"./src/pages/users/index.tsx\");\n/* harmony import */ var _pages_users_show__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./pages/users/show */ \"./src/pages/users/show.tsx\");\n/* harmony import */ var _pages_context_samples_sample_01__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./pages/context_samples/sample_01 */ \"./src/pages/context_samples/sample_01/index.tsx\");\n/* harmony import */ var _pages_context_samples_sample_02__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./pages/context_samples/sample_02 */ \"./src/pages/context_samples/sample_02/index.tsx\");\n\n\n\n\n\n\n\n\nvar app = document.getElementById('app');\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_7__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, { exact: true, path: \"/ichimon_itto/\", component: _pages_top__WEBPACK_IMPORTED_MODULE_2__.TopPage }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, { exact: true, path: \"/ichimon_itto/users\", component: _pages_users__WEBPACK_IMPORTED_MODULE_3__.UserIndexPage }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, { exact: true, path: \"/ichimon_itto/users/:userId\", component: _pages_users_show__WEBPACK_IMPORTED_MODULE_4__.UserShowPage }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, { exact: true, path: \"/ichimon_itto/context_samples/01\", component: _pages_context_samples_sample_01__WEBPACK_IMPORTED_MODULE_5__.ContextSample01Page }),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_8__.Route, { exact: true, path: \"/ichimon_itto/context_samples/02\", component: _pages_context_samples_sample_02__WEBPACK_IMPORTED_MODULE_6__.ContextSample02Page }))), app);\n\n\n//# sourceURL=webpack://react_training/./src/main.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_01/component_a.tsx":
-/*!*************************************************************!*\
-  !*** ./src/pages/context_samples/sample_01/component_a.tsx ***!
-  \*************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ComponentA\": function() { return /* binding */ ComponentA; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _component_a_child__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component_a_child */ \"./src/pages/context_samples/sample_01/component_a_child.tsx\");\n\n\nvar ComponentA = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"ComponentA\\u3067\\u3059\\u3088\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_a_child__WEBPACK_IMPORTED_MODULE_1__.ComponentAChild, null)));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_01/component_a.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_01/component_a_child.tsx":
-/*!*******************************************************************!*\
-  !*** ./src/pages/context_samples/sample_01/component_a_child.tsx ***!
-  \*******************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ComponentAChild\": function() { return /* binding */ ComponentAChild; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _contexts_sample01_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../contexts/sample01_context */ \"./src/contexts/sample01_context.ts\");\n\n\nvar ComponentAChild = function () {\n    var sample_context_value = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_contexts_sample01_context__WEBPACK_IMPORTED_MODULE_1__.Sample01Context);\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"ComponentAChild\\u3067\\u3059\\u3088\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, sample_context_value)));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_01/component_a_child.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_01/index.tsx":
-/*!*******************************************************!*\
-  !*** ./src/pages/context_samples/sample_01/index.tsx ***!
-  \*******************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ContextSample01Page\": function() { return /* binding */ ContextSample01Page; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _component_a__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component_a */ \"./src/pages/context_samples/sample_01/component_a.tsx\");\n/* harmony import */ var _contexts_sample01_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../contexts/sample01_context */ \"./src/contexts/sample01_context.ts\");\n\n\n\nvar ContextSample01Page = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_contexts_sample01_context__WEBPACK_IMPORTED_MODULE_2__.Sample01Context.Provider, { value: 'this is context sample' },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_a__WEBPACK_IMPORTED_MODULE_1__.ComponentA, null)));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_01/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_02/component_a.tsx":
-/*!*************************************************************!*\
-  !*** ./src/pages/context_samples/sample_02/component_a.tsx ***!
-  \*************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ComponentA\": function() { return /* binding */ ComponentA; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _component_a_child__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component_a_child */ \"./src/pages/context_samples/sample_02/component_a_child.tsx\");\n\n\nvar ComponentA = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"ComponentA\\u3067\\u3059\\u3088\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_a_child__WEBPACK_IMPORTED_MODULE_1__.ComponentAChild, null)));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_02/component_a.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_02/component_a_child.tsx":
-/*!*******************************************************************!*\
-  !*** ./src/pages/context_samples/sample_02/component_a_child.tsx ***!
-  \*******************************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ComponentAChild\": function() { return /* binding */ ComponentAChild; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _contexts_sample02_context__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../contexts/sample02_context */ \"./src/contexts/sample02_context.ts\");\n\n\nvar ComponentAChild = function () {\n    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useContext)(_contexts_sample02_context__WEBPACK_IMPORTED_MODULE_1__.Sample02Context), countConsumer = _a.countConsumer, dispatchConsumer = _a.dispatchConsumer;\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", null, \"ComponentAChild\\u3067\\u3059\\u3088\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, countConsumer),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", { onClick: function () { return dispatchConsumer({ type: 'A' }); } }, \"\\u30DC\\u30BF\\u30F3\\u3067\\u3059\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", { onClick: function () { return dispatchConsumer({ type: 'B' }); } }, \"\\u30DC\\u30BF\\u30F3\\u3067\\u3059\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"button\", { onClick: function () { return dispatchConsumer({ type: 'C' }); } }, \"\\u30DC\\u30BF\\u30F3\\u3067\\u3059\")));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_02/component_a_child.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/context_samples/sample_02/index.tsx":
-/*!*******************************************************!*\
-  !*** ./src/pages/context_samples/sample_02/index.tsx ***!
-  \*******************************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"ContextSample02Page\": function() { return /* binding */ ContextSample02Page; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _component_a__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./component_a */ \"./src/pages/context_samples/sample_02/component_a.tsx\");\n/* harmony import */ var _contexts_sample02_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../contexts/sample02_context */ \"./src/contexts/sample02_context.ts\");\n/* harmony import */ var _reducers_sample_reducer__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../reducers/sample_reducer */ \"./src/reducers/sample_reducer.ts\");\n\n\n\n\nvar initialState = 0;\nvar ContextSample02Page = function () {\n    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useReducer)(_reducers_sample_reducer__WEBPACK_IMPORTED_MODULE_3__.SampleReducer, initialState), count = _a[0], dispatch = _a[1];\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(_contexts_sample02_context__WEBPACK_IMPORTED_MODULE_2__.Sample02Context.Provider, { value: { countConsumer: count, dispatchConsumer: dispatch } },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u30EB\\u30FC\\u30C8\\u306E\\u30B3\\u30F3\\u30DD\\u30FC\\u30CD\\u30F3\\u30C8\\u3067\\u8868\\u793A\\u3057\\u3066\\u308Bcount\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, count),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(_component_a__WEBPACK_IMPORTED_MODULE_1__.ComponentA, null)));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/context_samples/sample_02/index.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-dom */ \"./node_modules/react-dom/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var _pages_top__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./pages/top */ \"./src/pages/top.tsx\");\n\n\n\n\nvar app = document.getElementById('app');\nreact_dom__WEBPACK_IMPORTED_MODULE_1__.render(react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_3__.BrowserRouter, null,\n    react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.StrictMode, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_4__.Route, { exact: true, path: \"/ichimon_itto/\", component: _pages_top__WEBPACK_IMPORTED_MODULE_2__.TopPage }))), app);\n\n\n//# sourceURL=webpack://react_training/./src/main.tsx?");
 
 /***/ }),
 
@@ -431,40 +343,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
 /***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TopPage\": function() { return /* binding */ TopPage; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\nvar TopPage = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"TopPage\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: \"/users\" }, \"\\u30E6\\u30FC\\u30B6\\u30FC\\u4E00\\u89A7\")),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", null, \"\\u968E\\u5C64\\u304C\\u6DF1\\u304F\\u306A\\u308B\\u30B3\\u30F3\\u30DD\\u30FC\\u30CD\\u30F3\\u30C8\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: \"/context_samples/01\" }, \"useContext\\u3092\\u4F7F\\u3063\\u3066\\u307F\\u308B\\u4F8B\")),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: \"/context_samples/02\" }, \"useContext\\u3068useReducer\\u3092\\u7D44\\u307F\\u5408\\u308F\\u305B\\u308B\"))));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/top.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/users/index.tsx":
-/*!***********************************!*\
-  !*** ./src/pages/users/index.tsx ***!
-  \***********************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"UserIndexPage\": function() { return /* binding */ UserIndexPage; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\nvar UserIndexPage = function () {\n    // START: useEffect のサンプル\n    // コンポーネントを起動したとき一度だけ実行するには空の配列を渡す\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {\n        // apiの取得とかを行うといい\n        console.log('読み込み時一度呼ばれる');\n    }, []);\n    // 値が変更されたタイミングで再度実行される(ReactDevToolでStateをいじったりするとテストできます)\n    var _a = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)({ value: 0 }), example = _a[0], setExample = _a[1];\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {\n        console.log('値の変更ごとに呼ばれる');\n    }, [example]);\n    // コンポーネントがなくなるタイミングで実行される\n    (0,react__WEBPACK_IMPORTED_MODULE_0__.useEffect)(function () {\n        return function () {\n            console.log('なくなるタイミングで一度実行される');\n        };\n    }, []);\n    // END: useEffect のサンプル\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"UserIndex\"),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__.Link, { to: \"/users/1\" }, \"\\u30E6\\u30FC\\u30B6\\u30FCA\")));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/users/index.tsx?");
-
-/***/ }),
-
-/***/ "./src/pages/users/show.tsx":
-/*!**********************************!*\
-  !*** ./src/pages/users/show.tsx ***!
-  \**********************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"UserShowPage\": function() { return /* binding */ UserShowPage; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router/esm/react-router.js\");\n/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react-router-dom */ \"./node_modules/react-router-dom/esm/react-router-dom.js\");\n\n\nvar UserShowPage = function () {\n    var params = (0,react_router_dom__WEBPACK_IMPORTED_MODULE_1__.useParams)();\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"UserShow: \" + params.userId),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { to: \"/users\" }, \"\\u30E6\\u30FC\\u30B6\\u30FC\\u4E00\\u89A7\")),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null,\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__.Link, { to: \"/\" }, \"\\u30C8\\u30C3\\u30D7\"))));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/users/show.tsx?");
-
-/***/ }),
-
-/***/ "./src/reducers/sample_reducer.ts":
-/*!****************************************!*\
-  !*** ./src/reducers/sample_reducer.ts ***!
-  \****************************************/
-/***/ (function(__unused_webpack_module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"SampleReducer\": function() { return /* binding */ SampleReducer; }\n/* harmony export */ });\nvar SampleReducer = function (currentState, action) {\n    switch (action.type) {\n        case 'A':\n            return currentState + 1;\n        case 'B':\n            return currentState + 2;\n        case 'C':\n            return currentState + 3;\n        default:\n            throw 'no type';\n    }\n};\n\n\n//# sourceURL=webpack://react_training/./src/reducers/sample_reducer.ts?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"TopPage\": function() { return /* binding */ TopPage; }\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar TopPage = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", null, \"TopPage\")));\n};\n\n\n//# sourceURL=webpack://react_training/./src/pages/top.tsx?");
 
 /***/ }),
 
